@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1a1a1a;
+}
+
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 147px;
+	padding-right: 147px;
+}
+
+.site-header {
+	height: 100px;
+	font-size: 14px;
+	color: #696969;
+	display: flex;
+	align-items: center;
+}
+.site-header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-logo {
+	width: 125px;
+	height: 22px;
+}
+
+.site-header__nav {
+	display: flex;
+	align-items: center;
+}
+
+.site-header__list {
+	display: flex;
+	align-items: center;
+	margin-right: 55px;
+}
+.site-header__items {
+	list-style: none;
+}
+
+.site-header__items:not(:last-child) {
+	margin-right: 46px;
+}
+
+.site-header__link {
+	color: #696969;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+.site-header__link:hover {
+	color: white;
+}
+
+.site-header__btn {
+	width: 138px;
+	height: 47px;
+	border-radius: 30px;
+	border: 2px solid #696969;
+	background-color: black;
+	color: white;
+	transition: all 0.2s ease;
+}
+
+.site-header__btn:hover {
+	background-color: transparent;
+}
+
+.site-header__btn:active {
+	background-color: black;
+}
+
+/* hero start */
+.site-hero {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/bgimages/katta-bgimg.png);
+	background-repeat: no-repeat;
+	background-position-x: 700px;
+	background-position-y: 10px;
+	background-size: contain;
+}
+
+.site-hero__container {
+	color: white;
+	width: 100%;
+	font-size: 72px;
+	line-height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.site-title {
+	margin-top: 191px;
+}
+.site-hero__btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 242px;
+	height: 65px;
+	border-radius: 33px;
+	margin-top: 93px;
+	border: none;
+	font-size: 13px;
+	color: white;
+	background-color: #ff9142;
+}
+
+.site-hero__btn:hover {
+	background-color: #ec9455;
+}
+
+.site-hero__btn:active {
+	background-color: #ff9142;
+	width: 242px;
+	height: 65px;
+	border: 2px solid white;
+}
+
+.hero-btn__img {
+	width: 16px;
+	height: 10px;
+	margin-left: 24px;
+}
+/* hero end */
