@@ -129,10 +129,11 @@ body {
 }
 
 .site-hero__btn:active {
-	background-color: #ff9142;
+	color: white;
+	background-color: transparent;
 	width: 242px;
 	height: 65px;
-	border: 2px solid white;
+	border: 2px solid #ff9142;
 }
 
 .hero-btn__img {
@@ -153,7 +154,7 @@ body {
 	background-image: url(../images/bgimages/katta-bgimg.png);
 	background-repeat: no-repeat;
 	background-position-x: -300px;
-	background-position-y: 20px;
+	background-position-y: -50px;
 	background-size: auto;
 }
 .hero1-texts {
@@ -162,6 +163,7 @@ body {
 	flex-direction: column;
 	align-items: start;
 	justify-content: center;
+	letter-spacing: 2px;
 }
 .hero1-title {
 	color: white;
@@ -179,9 +181,10 @@ body {
 	height: 60px;
 	margin-top: 76px;
 	border-radius: 47px;
-	color: white;
+	color: rgb(253, 202, 202);
 	border: none;
 	background-color: #ff9142;
+	transition: all 0.2s ease;
 }
 
 .hero1-btn:hover {
@@ -189,20 +192,145 @@ body {
 }
 
 .hero1-btn:active {
-	background-color: #ff9142;
+	background-color: transparent;
 	width: 288px;
 	height: 60px;
-	border: 2px solid white;
+	border: 2px solid #ff9142;
 }
 
 .hero1-images {
 	width: 454px;
 	height: 506px;
-	margin-left: 58px;
+	margin-left: 65px;
+	position: relative;
 }
 
 .hero1-image {
 	width: 454px;
 	height: 506px;
 }
+
+.images-div1 {
+	width: 110px;
+	height: 34px;
+	border: 2px solid #ff9142;
+	border-radius: 30px;
+	position: absolute;
+	position: absolute;
+	top: -17px;
+	right: 1px;
+}
+.images-div2 {
+	width: 55px;
+	height: 178px;
+	border: 2px solid #ff9142;
+	border-radius: 30px;
+	position: absolute;
+	bottom: 48px;
+	left: -40px;
+}
+
 /* hero1 end */
+
+.title-btn {
+	width: 100%;
+	height: 565px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/bgimages/katta-bgimg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: 550px;
+	background-position-y: -30px;
+}
+.div-title {
+	letter-spacing: 3px;
+	font-size: 54px;
+	color: white;
+}
+.div-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 242px;
+	height: 65px;
+	border-radius: 32.5px;
+	margin-top: 54px;
+	border: 2px solid #ff9142;
+	font-size: 13px;
+	color: white;
+	background-color: transparent;
+	transition: all 0.4s ease;
+}
+
+.div-btn:active {
+	border: 2px solid #ec9455;
+	background-color: #ff9142;
+}
+
+.div-btn__img {
+	width: 16px;
+	height: 10px;
+	margin-left: 24px;
+}
+
+/* hero2 srart */
+.site-hero2 {
+}
+
+.site-hero2__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.site-hero2__list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-left: 28px;
+}
+.site-hero2__items {
+	margin-right: 20px;
+	margin-top: 94px;
+	width: 560px;
+	height: 768px;
+	list-style: none;
+}
+
+.h3-span {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero2-images {
+	width: 560px;
+	height: 620px;
+}
+.hero2-title {
+	letter-spacing: 3px;
+	color: white;
+	font-size: 24px;
+}
+.line {
+	margin-left: 32px;
+	width: 48px;
+	height: 1px;
+	background-color: #ff9142;
+}
+
+.hero2-text {
+	font-size: 14px;
+	margin-top: 32px;
+	color: #696969;
+}
+
+.text1 {
+	margin-top: 8px;
+}
+
+span {
+	color: white;
+}
+/* hero2 end */
